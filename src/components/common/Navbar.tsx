@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AlignLeft, Mail, X } from "lucide-react";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 
 
@@ -12,6 +12,11 @@ const Navbar = () => {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+
+
+
+  // Using useLocation to get the current path 
+  const location = useLocation();
 
 
   // Function to toggle the mobile menu
@@ -70,7 +75,7 @@ const Navbar = () => {
 
   return (
 
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ">
 
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
@@ -105,8 +110,10 @@ const Navbar = () => {
 
                     <NavigationMenuLink
                       href={item.href}
-                      className={cn(
-                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                      className={cn( location.pathname === item.href
+                        ? "text-white bg-black font-bold"
+                        : "text-gray-800",
+                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-bold transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                       )}
                     >
                       {item.name}
@@ -121,12 +128,12 @@ const Navbar = () => {
                 {/* Services Dropdown */}
                 <NavigationMenuItem>
 
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-accent text-md font-medium transition-colors">
+                  <NavigationMenuTrigger className="bg-transparent hover:bg-accent text-md font-bold transition-colors">
                     Services
                   </NavigationMenuTrigger>
 
 
-                  <NavigationMenuContent className="!border-none">
+                  <NavigationMenuContent className="[&[data-state=open]]:shadow-lg">
 
                     <div className="grid gap-3 p-6 w-[600px]">
 
@@ -199,8 +206,10 @@ const Navbar = () => {
                   <NavigationMenuItem key={item.name}>
                     <NavigationMenuLink
                       href={item.href}
-                      className={cn(
-                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                      className={cn( location.pathname === item.href
+                        ? "text-white bg-black font-bold"
+                        : "text-gray-800",
+                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-bold transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                       )}
                     >
                       {item.name}
@@ -223,7 +232,7 @@ const Navbar = () => {
             <Mail size={18} className="transition-transform duration-300 group-hover:-rotate-6" />
             Contact Us
           </Link>
-         
+
 
 
 

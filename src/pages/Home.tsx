@@ -1,3 +1,5 @@
+import Slider from "@/components/home/Slider";
+
 
 
 export default function Home() {
@@ -5,12 +7,18 @@ export default function Home() {
 
     return (
 
+        <section className="w-full h-screen">
 
-        <div>Home</div>
+
+            {/* Hero Section */}
+            <div className="w-full h-screen relative">
+                <Slider />
+            </div>
+
+
+        </section>
+
     
-    
-
-    )
-
+    );
 
 }

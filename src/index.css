@@ -110,3 +110,14 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Remove border and shadow when the dropdown is open */
+[data-state="open"] {
+  border: 1px solid rgb(228, 225, 225) !important;
+  border-top: none !important;
+}

@@ -78,10 +78,10 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ">
 
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
+      <div className="max-w mx-auto px-4 sm:px-6 lg:px-14">
 
 
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
 
 
           {/* Logo */}
@@ -89,7 +89,7 @@ const Navbar = () => {
 
             <Link to="/" className="flex items-center space-x-2">
 
-              <img src="/Nav-black-logo.png" alt="nav-logo" className="h-12 sm:h-16 w-full object-contain" />
+              <img src="/Nav-black-logo.png" alt="nav-logo" className="h-12 sm:h-12 w-full object-contain" />
 
             </Link>
 
@@ -111,9 +111,9 @@ const Navbar = () => {
                     <NavigationMenuLink
                       href={item.href}
                       className={cn( location.pathname === item.href
-                        ? "text-white bg-black font-bold"
-                        : "text-gray-800",
-                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-bold transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                        ? "text-black font-bold text-md"
+                        : "text-gray-700 font-medium",
+                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md  transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                       )}
                     >
                       {item.name}
@@ -128,7 +128,7 @@ const Navbar = () => {
                 {/* Services Dropdown */}
                 <NavigationMenuItem>
 
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-accent text-md font-bold transition-colors">
+                  <NavigationMenuTrigger className="bg-transparent text-gray-700 hover:bg-accent text-sm font-medium transition-colors">
                     Services
                   </NavigationMenuTrigger>
 
@@ -207,9 +207,9 @@ const Navbar = () => {
                     <NavigationMenuLink
                       href={item.href}
                       className={cn( location.pathname === item.href
-                        ? "text-white bg-black font-bold"
-                        : "text-gray-800",
-                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md font-bold transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                        ? "text-black font-bold text-md"
+                        : "text-gray-700 font-medium",
+                        "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                       )}
                     >
                       {item.name}
@@ -226,10 +226,10 @@ const Navbar = () => {
 
 
           {/* Contact Button */}
-          <Link to="/contact" className="hidden md:inline-flex items-center gap-2 px-6 py-3 rounded-full bg-zinc-900 text-white font-semibold 
+          <Link to="/contact" className="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-zinc-900 text-white font-medium text-sm
              hover:bg-zinc-900 hover:shadow-lg hover:scale-[1.03] hover:cursor-pointer
              active:scale-[0.97] transition-all duration-300 ease-in-out">
-            <Mail size={18} className="transition-transform duration-300 group-hover:-rotate-6" />
+            <Mail size={14} className="transition-transform duration-300 group-hover:-rotate-6" />
             Contact Us
           </Link>
 

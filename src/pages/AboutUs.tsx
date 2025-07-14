@@ -21,25 +21,25 @@ export default function AboutUs() {
     // Vision Sections
     const Vision = [
         {
-            title: "Inception Vision:",
+            title: "Our Vision:",
             content:
-                "VisionCrafters was founded on a collective vision shared among seasoned professionals who sought to redefine excellence in the construction industry. With decades of experience under their belts, our founders established a company that prioritizes innovation, integrity, and unwavering dedication to client satisfaction. This initial vision served as the driving force behind the creation of VisionCrafters, setting the stage for the company’s remarkable journey.",
+                "At Redberry Advertising, our vision is to become a trusted leader in the branding and printing industry by delivering excellence, spreading knowledge, and upholding values that drive meaningful impact. We aim to be recognized not just for our creativity, but for the integrity and innovation that define our work. Our focus is on building long-term value for the company while nurturing enduring relationships with our clients. We strive to understand our clients’ unique business goals and needs, allowing us to align our strategies with their objectives and deliver solutions that foster growth, recognition, and lasting brand success.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHBS-0qrL9_nBNR-eirfEeVVemiMa2xtoWcw&s",
+        },
+        {
+            title: "Our Mission:",
+            content:
+                "To offer our clients good quality services and innovative integrated creative design and print solutions. To offer a truly marketing expertise and experience from client service to the nal product. To provide a one stop communication base offering consolidated services and products in marketing and communication . Consider working and serving our clients on time with meeting deadlines as per clients' requirements and orders.We take pride in the client relationships that have developed, resulting in interdependency and mutual growth.",
+            image: "https://i.pinimg.com/736x/02/15/25/021525507a79c115108090ff2772476c.jpg",
         },
         {
             title: "Evolutionary Journey:",
             content:
-                "From its humble beginnings as a startup to its current standing as a respected industry leader, VisionCrafters has undergone a remarkable evolutionary journey. Throughout this process, the company has remained steadfast in upholding its core values while continuously embracing opportunities for growth and improvement. This commitment to evolution has allowed VisionCrafters to adapt to changing landscapes, overcome challenges, and emerge as a dynamic and forward-thinking organization.",
-            image: "https://i.pinimg.com/736x/02/15/25/021525507a79c115108090ff2772476c.jpg",
-        },
-        {
-            title: "Commitment to Excellence:",
-            content:
-                "At VisionCrafters, excellence is not merely a goal to be achieved but a fundamental aspect of our company culture. Every member of our team, from skilled craftsmen to experienced project managers, is deeply committed to delivering outstanding quality and craftsmanship in every project we undertake. This dedication to excellence is reflected in our meticulous attention to detail, our adherence to the highest industry standards, and our unwavering commitment to exceeding client expectations.",
+                "We always prioritize a client-centric approach, which is at the heart of every project and creative process. We prioritize understanding our clients’ goals, brand identity, and specific needs to deliver tailored solutions that truly resonate. From initial consultation to final delivery, we focus on collaboration, transparency, and excellence. Our commitment ensures each creation not only meets expectations but also adds value to the client’s brand. By putting clients first, we build lasting relationships and impactful results.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1wV_bPBjVSm4u3Fszdzjy7f4TMYNNkfR8lA&s",
         },
         {
-            title: "Client-Centric Approach:",
+            title: "Uninterrupted Approach:",
             content:
                 "Central to our success is our unwavering focus on our clients. We understand that each project is unique, and we take the time to listen, understand, and tailor our services to meet the specific needs and objectives of our clients. Building lasting relationships based on trust, transparency, and exceptional service is at the heart of everything we do. Our client-centric approach ensures that every project we undertake is not only completed to the highest standards of quality but also exceeds our clients’ expectations, earning their trust and loyalty in the process.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC7-RFA1xE4wTSP0DZJSJ1AJ8TitBYtkmEYA&s",
@@ -58,11 +58,11 @@ export default function AboutUs() {
             <BlurFade delay={0.25} inView>
 
                 {/* Heading */}
-                <div className="text-center max-w-3xl text-md mx-auto mb-5 sm:pt-5">
+                <div className="text-center max-w-7xl text-md mx-auto mb-5 sm:pt-5">
                     <p className="text-green-600 font-semibold">About Us</p>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mt-2">
-                        Bringing Your Vision to Life <br className="hidden sm:block" />
-                        with Expertise and Dedication
+                        Where every pixel and print speaks quality <br className="hidden sm:block" />
+                        We make your brand or Service unforgettable
                     </h2>
                 </div>
 
@@ -112,11 +112,12 @@ export default function AboutUs() {
                 {/* Story Section */}
                 <div className="text-center max-w-3xl mx-auto mb-6">
                     <p className="text-green-600 font-semibold">Crafting Excellence</p>
-                    <h3 className="text-2xl sm:text-3xl font-bold mt-2">The VisionCrafters Journey Story</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold mt-2">The Redberry's Journey Story</h3>
                     <p className="text-gray-700 mt-4 text-sm sm:text-base">
-                        At VisionCrafters, our journey began with a simple yet powerful vision to transform the landscape of construction
-                        by combining innovation, craftsmanship, and integrity. Founded 12 years ago by a team of passionate industry veterans,
-                        VisionCrafters quickly established itself as a trusted name. Our story is one of perseverance, excellence, and bold vision.
+                        Redberry Advertising is a creative agency specializing in branding, promotion, and design. We deliver
+                        impactful visual communication with a focus on results and client satisfaction. Our passionate team crafts
+                        standout brand identities and campaigns that add value and elevate your business through creativity and strategic thinking.
+
                     </p>
                 </div>
 
@@ -195,7 +196,7 @@ export default function AboutUs() {
                             </h2>
 
                             <p className="text-gray-700 text-sm sm:text-base mb-6 max-w-md">
-                                Ready to bring your vision to life? Requesting a quote from VisionCrafters is the first step towards turning your dreams into reality. Our team of experts is standing by to provide you with a personalized estimate tailored to your project’s needs.
+                                Transforming ideas into impactful designs and print solutions. Through creative expertise and personalized service, we bring brands to life, ensuring every project reflects the client’s goals, identity, and message with clarity and excellence.
                             </p>
 
                             <div className="flex flex-col sm:flex-row sm:justify-start justify-center gap-4">

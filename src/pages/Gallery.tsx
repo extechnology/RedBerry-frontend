@@ -95,7 +95,7 @@ export default function Gallery() {
 
                     return (
 
-                        <MotionEffect inView inViewOnce={false} key={index} slide={{ direction: 'down', }} fade zoom delay={0.4 + index * 0.1}>
+                        <MotionEffect inView key={index} slide={{ direction: 'down', }} fade zoom delay={0.4 + index * 0.1}>
 
                             <motion.div
                                 key={index}

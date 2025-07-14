@@ -22,7 +22,8 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-gray-300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad a officia ea expedita!
+            At Redberry Advertising, our service continues even after project delivery, with a full
+            range of after-sales support to meet your needs.
           </p>
 
         </div>
@@ -46,10 +47,10 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 text-xl font-semibold text-white">Contact Info</h3>
           <ul className="space-y-3 text-sm text-gray-300">
-            <li>Boleno Inc.</li>
-            <li>1234 Innovation Street, Bangalore, India</li>
-            <li>Phone: +91 98765 43210</li>
-            <li>Email: support@boleno.com</li>
+            <li>Jeddah, Khalid Bin Waleed </li>
+            <li>St., Kingdom of Saudi Arabia</li>
+            <li>Phone: <a href="tel:+966503476840" target="_blank" className="hover:text-white hover:underline hover:font-medium transition duration-200">+966 50 347 6840</a></li>
+            <li>Email: <a href="mailto:shameer.k@redberryksa.com" target="_blank" className="hover:text-white hover:underline hover:font-medium transition duration-200">shameer.k@redberryksa.com</a></li>
           </ul>
         </div>
 

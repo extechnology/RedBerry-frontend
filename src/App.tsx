@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react"
 import { Route, Routes } from "react-router-dom"
-
+import SuspenseLoader from "./components/common/SuspenseLoader"
 
 
 
@@ -24,7 +24,7 @@ function App() {
   return (
 
 
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<SuspenseLoader />}>
 
 
       <Routes>

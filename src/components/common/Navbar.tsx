@@ -33,7 +33,13 @@ const Navbar = () => {
       title: "Printing",
       description: "High-quality printing services for all your business needs",
       icon: "https://media.istockphoto.com/id/941664964/vector/man-worker-at-plotter-printing-wide-format-large-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=W9JfyBycnPnlmyQcqZDMoiLCKXxxyqg3rsbok_e2854=",
-      href: "/services/printing"
+      href: "/printingservices"
+    },
+    {
+      title: "Indoor & Outdoor Signage",
+      description: "Custom signage solutions for indoor and outdoor use",
+      icon: "https://media.istockphoto.com/id/941664964/vector/man-worker-at-plotter-printing-wide-format-large-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=W9JfyBycnPnlmyQcqZDMoiLCKXxxyqg3rsbok_e2854=",
+      href: "/indoor&outdoorsignage"
     },
     {
       title: "Laser Work",
@@ -110,7 +116,7 @@ const Navbar = () => {
 
                     <NavigationMenuLink
                       href={item.href}
-                      className={cn( location.pathname === item.href
+                      className={cn(location.pathname === item.href
                         ? "text-black font-bold text-md"
                         : "text-gray-700 font-medium",
                         "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md  transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
@@ -206,7 +212,7 @@ const Navbar = () => {
                   <NavigationMenuItem key={item.name}>
                     <NavigationMenuLink
                       href={item.href}
-                      className={cn( location.pathname === item.href
+                      className={cn(location.pathname === item.href
                         ? "text-black font-bold text-md"
                         : "text-gray-700 font-medium",
                         "group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-md transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"

@@ -48,7 +48,6 @@ export default function AboutUs() {
 
 
 
-
     return (
 
 
@@ -162,8 +161,6 @@ export default function AboutUs() {
                 </div>
 
             </section>
-
-
 
 
 

@@ -10,6 +10,9 @@ const FaqPage = lazy(() => import("./pages/Faq"))
 const ContactUs = lazy(() => import("./pages/ContactUs"))
 const AboutUs = lazy(() => import("./pages/AboutUs"))
 const Gallery = lazy(() => import("./pages/Gallery"))
+const PrintingServices = lazy(() => import("./pages/PrintingServices"))
+const Indoor = lazy(() => import("./pages/Indoor"))
+
 
 
 const MainLayout = lazy(() => import("./components/layout/MainLayout"))
@@ -42,6 +45,10 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
 
           <Route path="/gallery" element={<Gallery />} />
+
+          <Route path="/printingservices" element={<PrintingServices />} />
+
+          <Route path="/indoor&outdoorsignage" element={<Indoor />} />
         
         </Route>
 

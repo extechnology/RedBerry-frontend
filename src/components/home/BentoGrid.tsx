@@ -27,13 +27,10 @@ export default function BentoGrid() {
             >
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-6xl font-semibold mb-4">
-                        Beginner’s Guide to Skiing Journey
+                        Your brand deserves to stand out — we make it happen.
                     </h2>
-                    <p className="text-lg text-gray-700 mb-1 font-medium">
-                        How To Take Your First Step To Skiing? Well, It’s Very Easy Now!
-                    </p>
-                    <p className="text-sm text-gray-600 font-medium">
-                        Navigate Your First Ski Experience with Alpine Fresh Brand in Skiing.
+                    <p className="text-md text-gray-700 mb-1 font-medium max-w-2xl mx-auto">
+                        we believe every brand has a unique story. Our creative design and professional printing services ensure your brand stands out with impact, clarity, and lasting visual appeal.
                     </p>
                 </div>
             </MotionEffect>

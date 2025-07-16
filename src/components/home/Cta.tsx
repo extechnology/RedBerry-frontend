@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MotionEffect } from "../animate-ui/effects/motion-effect";
 
 
@@ -16,19 +17,19 @@ export default function Cta() {
 
 
                 <MotionEffect inView slide={{ direction: 'down', }} fade zoom delay={0.4}>
-             
+
                     {/* Image */}
                     <div className="flex justify-center">
-             
+
                         <img
                             src="https://as1.ftcdn.net/jpg/04/69/92/54/1000_F_469925430_KfRlZ0yKcQe3MjDQPN1c5Hw9VUa2CKBh.jpg"
                             alt="Fitness Transformation"
                             loading="lazy"
                             className="rounded-3xl w-full max-w-xl object-cover"
                         />
-             
+
                     </div>
-             
+
                 </MotionEffect>
 
 
@@ -42,24 +43,24 @@ export default function Cta() {
                     }}
                     inView
                 >
-                    
+
                     <div>
-                    
+
                         <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
-                            Lorem Ipsum<br />
-                            <span className="text-gray-900">Lorem Ipsum Lorem ?</span>
+                            Connect and Empower<br />
+                            <span className="text-gray-900">Your brand and Business</span>
                         </h2>
-                    
+
                         <p className="mt-4 text-gray-700 text-lg">
-                            No more guesswork. No more waiting. Get personalized workouts,
-                            flexible nutrition, expert coaching, and tools that keep you on
-                            track — all in one place.
+                            Connect with Redberry to unlock the full potential of your brand. Our creative solutions and expert services are designed to empower your business and enhance your market presence.
                         </p>
 
-                        <button className="mt-6 px-6 py-3 rounded-full hover:scale-105 hover:cursor-pointer bg-black text-white font-semibold transition">
-                            START YOUR FREE TRIAL
-                        </button>
-                    
+                        <Link to={'/contact'}>
+                            <button className="mt-6 px-6 py-3 rounded-full hover:scale-105 hover:cursor-pointer bg-black text-white font-semibold transition">
+                                Contact Now !
+                            </button>
+                        </Link>
+
                     </div>
 
                 </MotionEffect>

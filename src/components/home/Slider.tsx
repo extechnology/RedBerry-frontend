@@ -11,15 +11,21 @@ import { Link } from 'react-router-dom';
 const slides = [
     {
         image: 'https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D',
-        subtitle: '#1 Energy provider in the world',
-        title: 'New Energy for the Future',
+        subtitle: 'Where Every Pixel And Print Speaks Quality',
+        title: 'We Make Your Brand Or Service Unforgettable',
         projectimg: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
 
     },
     {
         image: 'https://img.freepik.com/free-photo/solitude-despair-sitting-shadows-generated-by-ai_188544-26133.jpg?semt=ais_hybrid&w=740',
-        subtitle: '#1 Energy provider in the world',
-        title: 'Powering Progress with Clean Energy',
+        subtitle: 'Your Ideas, Our Graphics, Flawless Print',
+        title: 'From Concept To Creation Graphics That Deliver.',
+        projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
+    },
+    {
+        image: 'https://img.freepik.com/free-photo/two-monastera-leaves-black-background_23-2147835077.jpg?semt=ais_hybrid&w=740',
+        subtitle: 'We Turn Designs Into Lasting Impressions,',
+        title: 'Creatives Delivered For Standout Brands',
         projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
     },
 ];
@@ -68,13 +74,13 @@ export default function Slider() {
 
                             {/* Heading and Buttons */}
                             <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-14 z-10 text-white max-w-[850px]">
-                         
+
                                 <p className="text-sm mb-3 text-white/70">
                                     {slide.subtitle}
                                 </p>
-                         
+
                                 <h1 className="text-4xl sm:text-6xl font-semibold leading-tight">
-                         
+
                                     {(() => {
                                         const words = slide.title.split(" ");
                                         return (
@@ -94,7 +100,7 @@ export default function Slider() {
                                         Get in touch
                                     </Link>
 
-                                    <Link to="/services" className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-500 ease-in-out">
+                                    <Link to="/printingservices" className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-500 ease-in-out">
                                         Our services →
                                     </Link>
 

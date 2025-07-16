@@ -7,23 +7,23 @@ import { MotionEffect } from "../animate-ui/effects/motion-effect";
 // Feature data
 const features = [
     {
-        count: 30,
+        count: 2000,
         label: "Happy Clients",
         image: "https://c0.wallpaperflare.com/preview/893/649/155/man-operating-laptop-on-top-of-table.jpg",
     },
     {
-        count: 15,
+        count: 150,
         label: "Your Growth Partner",
         image: "https://media.istockphoto.com/id/1390242644/photo/smiling-people-in-the-meeting-room-using-a-laptop-searching-s.jpg?s=612x612&w=0&k=20&c=DtQoaRXByFbFNUXk1ZNIeWuQhTzKjsyC-1PeyenkfcE=",
     },
     {
-        count: 35,
-        label: "Happy Clients",
+        count: null,
+        label: "Premium Quality & Innovations ",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LpCCRBf3ATtMGbbX9BRpmat3_Za-c39vm_-Ipa05gCJFET9MhvMLC_OIRo6livZ4qM4&usqp=CAU",
     },
     {
-        count: 18,
-        label: "Your Growth Partner",
+        count: null,
+        label: "Error Free Delivery",
         image: "https://img.freepik.com/premium-photo/smiling-multiracial-family-couple-enjoy-freelancing-sitting-table-working-laptops-together_1048944-25489632.jpg",
     },
 ];
@@ -51,10 +51,9 @@ export default function WhyChooseUs() {
             >
                 <div className="text-center mb-12">
                     <p className="text-sm text-pink-600 font-medium mb-2 animate-pulse">● Why Choose Us</p>
-                    <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose Us</h2>
+                    <h2 className="text-3xl sm:text-4xl font-bold mb-4">Trusted by Many, Chosen for a Reason</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
-                        Our mission is to drive progress and enhance the lives of our customers
-                        by delivering superior products and services that exceed.
+                        We have earned the trust of numerous clients through consistent quality, creativity, and commitment. Our results-driven approach and attention to detail make us the preferred choice for printing and advertising solutions
                     </p>
                 </div>
             </MotionEffect>
@@ -86,13 +85,13 @@ export default function WhyChooseUs() {
                             <div className="absolute bottom-4 left-4 text-white">
 
                                 <div className="flex items-center gap-2 text-2xl font-bold">
-                                    <p> <CountingNumber inView number={item.count} className="text-2xl" />+</p>
+                                    <p>{item.count && (<> <CountingNumber inView number={item?.count} className="text-2xl" /> + </>)}</p>
                                     <div className="w-8 h-8 bg-white text-pink-600 rounded-full flex items-center justify-center">
                                         <Flame className="w-4 h-4" />
                                     </div>
                                 </div>
 
-                                <p className="text-sm font-medium mt-1">{item.label}</p>
+                                <p className="text-md font-medium mt-1">{item.label}</p>
 
                             </div>
 

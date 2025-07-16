@@ -45,25 +45,25 @@ const Navbar = () => {
       title: "Laser Work",
       description: "Precision laser cutting and engraving services",
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPDMt-qxz9I26TV12afkB4u7EcEmj_-5o_A&s",
-      href: "/services/laser"
+      href: "/lasercutting&engraving"
     },
     {
       title: "Exhibitions",
       description: "Custom exhibition stands and displays for your events",
       icon: "https://static.vecteezy.com/system/resources/previews/025/770/432/non_2x/art-exhibition-illustration-vector.jpg",
-      href: "/services/laser"
+      href: "/exhibitions"
     },
     {
       title: "Interior Design",
       description: "Professional interior design and consultation",
       icon: "https://static.vecteezy.com/system/resources/thumbnails/000/217/378/small_2x/vector-interior-design-illustration.jpg",
-      href: "/services/interior"
+      href: "/interiordesing"
     },
     {
       title: "Graphic Design",
       description: "Creative graphic design solutions for your brand",
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG-kXG6ev9q3QEb0GXPgXwdRs5Coq1casmA&s",
-      href: "/services/interior"
+      href: "/graphicdesign"
     }
   ];
 

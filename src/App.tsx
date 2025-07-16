@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react"
 import { Route, Routes } from "react-router-dom"
 import SuspenseLoader from "./components/common/SuspenseLoader"
-
+import ScrollToTop from "./components/common/ScrollToTop"
 
 
 // Lazy loading Pages
@@ -11,6 +11,10 @@ const ContactUs = lazy(() => import("./pages/ContactUs"))
 const AboutUs = lazy(() => import("./pages/AboutUs"))
 const Gallery = lazy(() => import("./pages/Gallery"))
 const PrintingServices = lazy(() => import("./pages/PrintingServices"))
+const LaserService = lazy(() => import("./pages/LaserService"))
+const ExhibitionService = lazy(() => import("./pages/ExhibitionService"))
+const InteriorDesing = lazy(() => import("./pages/InteriorDesing"))
+const GraphicDesing = lazy(() => import("./pages/GraphicDesing"))
 const Indoor = lazy(() => import("./pages/Indoor"))
 
 
@@ -29,6 +33,7 @@ function App() {
 
     <Suspense fallback={<SuspenseLoader />}>
 
+      <ScrollToTop />
 
       <Routes>
 
@@ -49,7 +54,15 @@ function App() {
           <Route path="/printingservices" element={<PrintingServices />} />
 
           <Route path="/indoor&outdoorsignage" element={<Indoor />} />
-        
+
+          <Route path="/lasercutting&engraving" element={<LaserService />} />
+
+          <Route path="/exhibitions" element={<ExhibitionService />} />
+
+          <Route path="/interiordesing" element={<InteriorDesing />} />
+
+          <Route path="/graphicdesign" element={<GraphicDesing />} />
+
         </Route>
 
 

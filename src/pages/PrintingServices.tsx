@@ -198,11 +198,11 @@ export default function PrintingServices() {
                                 <p className="text-gray-600">{services[active].description}</p>
 
 
-                                <div className="flex gap-4">
+                                {/* <div className="flex gap-4">
                                     <button className="px-6 hover:cursor-pointer hover:scale-105 py-2 rounded-full bg-black text-white hover:bg-gray-800 transition">
                                         Details Services 
                                     </button>
-                                </div>
+                                </div> */}
 
 
                             </motion.div>

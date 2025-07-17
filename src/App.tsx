@@ -19,6 +19,7 @@ const Indoor = lazy(() => import("./pages/Indoor"))
 
 
 
+// Lazy loading Layout
 const MainLayout = lazy(() => import("./components/layout/MainLayout"))
 
 
@@ -33,7 +34,10 @@ function App() {
 
     <Suspense fallback={<SuspenseLoader />}>
 
+
+      {/* Scroll to top */}
       <ScrollToTop />
+
 
       <Routes>
 
@@ -66,15 +70,11 @@ function App() {
         </Route>
 
 
-
       </Routes>
-
 
     </Suspense>
 
-
   )
-
 
 }
 

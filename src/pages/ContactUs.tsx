@@ -104,7 +104,7 @@ export default function ContactUs() {
 
 
                         <p className="text-gray-500 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+                            Get in touch with us and we will get back to you as soon as possible.
                         </p>
 
 
@@ -115,7 +115,7 @@ export default function ContactUs() {
                                 <MapPin className="w-5 h-5 text-black mt-1" />
                                 <div>
                                     <p className="font-medium">Location</p>
-                                    <p className="text-gray-500">Jalan Cempaka Wangi No 22<br />Jakarta - Indonesia</p>
+                                    <p className="text-gray-500">Jeddah, Khalid Bin Waleed<br />St., Kingdom of Saudi Arabia</p>
                                 </div>
                             </div>
 
@@ -124,7 +124,7 @@ export default function ContactUs() {
                                 <Mail className="w-5 h-5 text-black mt-1" />
                                 <div>
                                     <p className="font-medium">Email us</p>
-                                    <p className="text-gray-500">support@yourdomain.tld<br />hello@yourdomain.tld</p>
+                                    <p className="text-gray-500"><a href="mailto:shameer.k@redberryksa.com" target="_blank" className="hover:underline hover:font-medium transition duration-200">shameer.k@redberryksa.com</a></p>
                                 </div>
                             </div>
 
@@ -133,7 +133,7 @@ export default function ContactUs() {
                                 <Phone className="w-5 h-5 text-black mt-1" />
                                 <div>
                                     <p className="font-medium">Call us</p>
-                                    <p className="text-gray-500">+6221.2002.2012<br />+6221.2002.2013 (Fax)</p>
+                                    <p className="text-gray-500"><a href="tel:+966503476840" target="_blank" className="hover:underline hover:font-medium transition duration-200">+966 50 347 6840</a></p>
                                 </div>
                             </div>
 

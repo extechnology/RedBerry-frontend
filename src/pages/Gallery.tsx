@@ -6,6 +6,8 @@ import { MotionEffect } from "@/components/animate-ui/effects/motion-effect";
 import { BlurFade } from "@/components/magicui/blur-fade";
 
 
+
+
 export default function Gallery() {
 
 
@@ -16,35 +18,35 @@ export default function Gallery() {
             title: "Prismic Gallery",
             subtitle: "Development & Design | 2024 | Prismic Integration",
             year: 2024,
-            image: "https://images.prismic.io/prismic-main/ZyGdsq8jQArT0Aen_HERO.png?auto=format%2Ccompress&fit=max&w=3840",
+            image: "/Gallery - 1.jpg",
             bgColor: "bg-yellow-100",
         },
         {
             title: "Code Screenshot",
             subtitle: "Development & Design",
             year: 2024,
-            image: "https://generatepress.com/wp-content/uploads/2025/02/great-hero-featured-image.png",
+            image: "/Gallery - 2.jpg",
             bgColor: "bg-pink-100",
         },
         {
             title: "iPhone 15 Pro",
             subtitle: "Development & Design",
             year: 2024,
-            image: "https://i.ytimg.com/vi/flAcHu-squc/maxresdefault.jpg",
+            image: "/Gallery - 4.jpg",
             bgColor: "bg-gray-100",
         },
         {
             title: "Ochi Design",
             subtitle: "Development & Design",
             year: 2024,
-            image: "https://i.ytimg.com/vi/LJbkLdtEW00/maxresdefault.jpg",
+            image: "/Gallery - 3.jpg",
             bgColor: "bg-green-100",
         },
         {
             title: "Snapalyzer",
             subtitle: "Development & Design",
             year: 2024,
-            image: "https://t3.ftcdn.net/jpg/08/83/37/74/360_F_883377429_mHDU0PY3n0rrIkGTfGH1IjRbt0aVoo8W.jpg",
+            image: "/Gallery - 5.jpg",
             bgColor: "bg-indigo-100",
         },
     ];

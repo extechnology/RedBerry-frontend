@@ -134,7 +134,7 @@ const Navbar = () => {
                 {/* Services Dropdown */}
                 <NavigationMenuItem>
 
-                  <NavigationMenuTrigger className="bg-transparent text-gray-700 hover:bg-accent text-sm font-medium transition-colors">
+                  <NavigationMenuTrigger className="bg-transparent hover:cursor-pointer text-gray-700 hover:bg-accent text-sm font-medium transition-colors">
                     Services
                   </NavigationMenuTrigger>
 

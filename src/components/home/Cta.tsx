@@ -22,7 +22,7 @@ export default function Cta() {
                     <div className="flex justify-center">
 
                         <img
-                            src="https://as1.ftcdn.net/jpg/04/69/92/54/1000_F_469925430_KfRlZ0yKcQe3MjDQPN1c5Hw9VUa2CKBh.jpg"
+                            src="/connect-empower.jpg"
                             alt="Fitness Transformation"
                             loading="lazy"
                             className="rounded-3xl w-full max-w-xl object-cover"

@@ -9,23 +9,23 @@ const features = [
     {
         count: 2000,
         label: "Happy Clients",
-        image: "https://c0.wallpaperflare.com/preview/893/649/155/man-operating-laptop-on-top-of-table.jpg",
+        image: "/Happy Clients-whyus.jpg",
     },
     {
         count: 150,
         label: "Your Growth Partner",
-        image: "https://media.istockphoto.com/id/1390242644/photo/smiling-people-in-the-meeting-room-using-a-laptop-searching-s.jpg?s=612x612&w=0&k=20&c=DtQoaRXByFbFNUXk1ZNIeWuQhTzKjsyC-1PeyenkfcE=",
+        image: "/Growth Partners - whyus.jpg",
     },
     {
         count: null,
         label: "Premium Quality & Innovations ",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LpCCRBf3ATtMGbbX9BRpmat3_Za-c39vm_-Ipa05gCJFET9MhvMLC_OIRo6livZ4qM4&usqp=CAU",
+        image: "/Premium Quality & Innovations -whyus.jpg",
     },
     {
         count: null,
         label: "Error Free Delivery",
-        image: "https://img.freepik.com/premium-photo/smiling-multiracial-family-couple-enjoy-freelancing-sitting-table-working-laptops-together_1048944-25489632.jpg",
-    },
+        image: "/Free Delivery - whyus.jpg",
+    }
 ];
 
 
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
     return (
 
 
-        <section className="bg-white py-10 sm:py-16 border-t-2 border-dashed border-gray-300 px-2 sm:px-10 lg:px-20 text-black">
+        <section className="bg-white py-10 sm:py-10 border-t-2 border-dashed border-gray-300 px-2 sm:px-10 lg:px-20 text-black">
 
 
             {/* Section Header */}

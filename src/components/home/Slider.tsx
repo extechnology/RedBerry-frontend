@@ -10,20 +10,20 @@ import { Link } from 'react-router-dom';
 // Slies data for the slider
 const slides = [
     {
-        image: 'https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D',
+        image: '/Slider-1.jpg',
         subtitle: 'Where Every Pixel And Print Speaks Quality',
         title: 'We Make Your Brand Or Service Unforgettable',
         projectimg: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
 
     },
     {
-        image: 'https://img.freepik.com/free-photo/solitude-despair-sitting-shadows-generated-by-ai_188544-26133.jpg?semt=ais_hybrid&w=740',
+        image: '/Slider-2.jpg',
         subtitle: 'Your Ideas, Our Graphics, Flawless Print',
         title: 'From Concept To Creation Graphics That Deliver.',
         projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
     },
     {
-        image: 'https://img.freepik.com/free-photo/two-monastera-leaves-black-background_23-2147835077.jpg?semt=ais_hybrid&w=740',
+        image: '/Slider-3.jpg',
         subtitle: 'We Turn Designs Into Lasting Impressions,',
         title: 'Creatives Delivered For Standout Brands',
         projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
@@ -69,7 +69,7 @@ export default function Slider() {
 
 
                             {/* Dark Overlay */}
-                            <div className="absolute inset-0 bg-black/40" />
+                            <div className="absolute inset-0 bg-black/50" />
 
 
                             {/* Heading and Buttons */}

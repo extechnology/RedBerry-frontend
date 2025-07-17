@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -33,11 +34,11 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 text-xl font-semibold text-white">Quick Links</h3>
           <ul className="space-y-3 text-sm text-gray-300">
-            <li><a className="hover:text-white hover:underline hover:font-medium transition duration-200" href="#">Home</a></li>
-            <li><a className="hover:text-white hover:underline hover:font-medium transition duration-200" href="#">About Us</a></li>
-            <li><a className="hover:text-white hover:underline hover:font-medium transition duration-200" href="#">Services</a></li>
-            <li><a className="hover:text-white hover:underline hover:font-medium transition duration-200" href="#">FAQ</a></li>
-            <li><a className="hover:text-white hover:underline hover:font-medium transition duration-200" href="#">Gallery</a></li>
+            <li><Link className="hover:text-white hover:underline hover:font-medium transition duration-200" to={'/'}>Home</Link></li>
+            <li><Link className="hover:text-white hover:underline hover:font-medium transition duration-200" to={'/about'}>About Us</Link></li>
+            <li><Link className="hover:text-white hover:underline hover:font-medium transition duration-200" to={'/printingservices'}>Services</Link></li>
+            <li><Link className="hover:text-white hover:underline hover:font-medium transition duration-200" to={'/faqs'}>FAQ</Link></li>
+            <li><Link className="hover:text-white hover:underline hover:font-medium transition duration-200" to={'/gallery'}>Gallery</Link></li>
           </ul>
         </div>
 
@@ -102,7 +103,7 @@ export default function Footer() {
 
           <p className="text-xs text-center">© 2025 RedBerry, All Rights Reserved</p>
 
-          <p className="order-first lg:order-none font-semibold text-sm text-center text-white">Powered by extechnology</p>
+          <p className="order-first lg:order-none font-semibold text-sm text-center text-white"><a href="https://extechnology.in" className="hover:text-white hover:font-bold transition" target="_blank">Powered by extechnology</a></p>
 
           <div className="flex gap-x-4 justify-center lg:justify-end text-xs">
             <a href="#" className="hover:underline hover:text-white hover:font-medium transition">Privacy Policy</a>

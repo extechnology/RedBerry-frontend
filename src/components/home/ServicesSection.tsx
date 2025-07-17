@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 // Service data
 const services = [
-    { title: "Printing", href: "/printingservices" , image: "https://cdn.wedevs.com/uploads/2020/06/Business-Branding-feature-Images.png" },
-    { title: "Indoor door & Outdoor Signages",  href: "/indoor&outdoorsignage" , image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGA7XCdHJkW4FUjIzeSHetB6X3Kbq-56W6tw&s" },
-    { title: "Laser work", href: "/lasercutting&engraving" , image: "https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_1920,q_auto/images/panoramic/parcels-packages-shipping_1940x900_33939.jpg" },
-    { title: "Exhibitions", href: "/exhibitions" , image: "https://foyr.com/learn/wp-content/uploads/2018/12/indoors-3101776_1280.jpg" },
-    { title: "Interior designs", href: "/interiordesing" , image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwj9i8Uc6X6FvWgvANWAbfHVAXOvIeSC0Pw&s" },
-    { title: "Graphics Designs", href: "/graphicdesign" , image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwj9i8Uc6X6FvWgvANWAbfHVAXOvIeSC0Pw&s" },
+    { title: "Printing", href: "/printingservices" , image: "/Printing -homepage.jpg" },
+    { title: "Indoor door & Outdoor Signages",  href: "/indoor&outdoorsignage" , image: "/Indoor door & Outdoor Signages-homepage.jpg" },
+    { title: "Laser work", href: "/lasercutting&engraving" , image: "/Laser work  - homepage.jpg" },
+    { title: "Exhibitions", href: "/exhibitions" , image: "/Exhibitions -homepage.jpg" },
+    { title: "Interior designs", href: "/interiordesing" , image: "/Interior designs - homepage.jpg" },
+    { title: "Graphics Designs", href: "/graphicdesign" , image: "/Graphics Designs-homepage.jpg" },
 ];
 
 
@@ -48,6 +48,7 @@ export default function ServicesSection() {
 
             {/* Service Rows */}
             <div className="flex flex-col">
+
                 {services.map((service, idx) => (
 
                     <MotionEffect inView key={idx} slide={{ direction: 'down', }} fade zoom delay={0.4 + idx * 0.1}>
@@ -75,8 +76,8 @@ export default function ServicesSection() {
 
 
                                     {/* Overlay text */}
-                                    <div className="absolute inset-0 bg-black/40 flex items-center px-6">
-                                        <h2 className="text-4xl font-medium tracking-widest">{service.title.toUpperCase()}</h2>
+                                    <div className="absolute inset-0 bg-black/45 flex items-center px-6">
+                                        <h2 className="text-2xl sm:text-4xl font-medium tracking-widest">{service.title.toUpperCase()}</h2>
                                     </div>
 
                                 </div>

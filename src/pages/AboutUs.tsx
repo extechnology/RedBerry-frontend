@@ -24,25 +24,25 @@ export default function AboutUs() {
             title: "Our Vision:",
             content:
                 "At Redberry Advertising, our vision is to become a trusted leader in the branding and printing industry by delivering excellence, spreading knowledge, and upholding values that drive meaningful impact. We aim to be recognized not just for our creativity, but for the integrity and innovation that define our work. Our focus is on building long-term value for the company while nurturing enduring relationships with our clients. We strive to understand our clients’ unique business goals and needs, allowing us to align our strategies with their objectives and deliver solutions that foster growth, recognition, and lasting brand success.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHBS-0qrL9_nBNR-eirfEeVVemiMa2xtoWcw&s",
+            image: "/Our vision.jpg",
         },
         {
             title: "Our Mission:",
             content:
                 "To offer our clients good quality services and innovative integrated creative design and print solutions. To offer a truly marketing expertise and experience from client service to the nal product. To provide a one stop communication base offering consolidated services and products in marketing and communication . Consider working and serving our clients on time with meeting deadlines as per clients' requirements and orders.We take pride in the client relationships that have developed, resulting in interdependency and mutual growth.",
-            image: "https://i.pinimg.com/736x/02/15/25/021525507a79c115108090ff2772476c.jpg",
+            image: "/Our Mission .jpg",
         },
         {
             title: "Evolutionary Journey:",
             content:
                 "We always prioritize a client-centric approach, which is at the heart of every project and creative process. We prioritize understanding our clients’ goals, brand identity, and specific needs to deliver tailored solutions that truly resonate. From initial consultation to final delivery, we focus on collaboration, transparency, and excellence. Our commitment ensures each creation not only meets expectations but also adds value to the client’s brand. By putting clients first, we build lasting relationships and impactful results.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1wV_bPBjVSm4u3Fszdzjy7f4TMYNNkfR8lA&s",
+            image: "/Evolutionary Journey.jpg",
         },
         {
             title: "Uninterrupted Approach:",
             content:
                 "Central to our success is our unwavering focus on our clients. We understand that each project is unique, and we take the time to listen, understand, and tailor our services to meet the specific needs and objectives of our clients. Building lasting relationships based on trust, transparency, and exceptional service is at the heart of everything we do. Our client-centric approach ensures that every project we undertake is not only completed to the highest standards of quality but also exceeds our clients’ expectations, earning their trust and loyalty in the process.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC7-RFA1xE4wTSP0DZJSJ1AJ8TitBYtkmEYA&s",
+            image: "/Uninterrupted Approach.jpg",
         },
     ];
 
@@ -69,7 +69,7 @@ export default function AboutUs() {
                 {/* Image */}
                 <div className="w-full rounded-lg overflow-hidden mb-5 sm:mb-10">
                     <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmr6ZqsrxMGdZpRJmtuMsnV05bIpPA6a_6jA&s" // replace this with actual imported image or public path
+                        src="/About Page -hero.jpg"
                         alt="Team"
                         loading="lazy"
                         className="w-full h-[80vh] object-cover"
@@ -139,7 +139,7 @@ export default function AboutUs() {
                                     src={section.image}
                                     alt={section.title}
                                     loading="lazy"
-                                    className={`w-full h-64 sm:h-80 md:h-full object-cover rounded-xl shadow-md ${index % 2 === 1 ? "md:order-last" : ""
+                                    className={`w-full h-64 sm:h-80 md:h-96 object-cover rounded-xl shadow-md ${index % 2 === 1 ? "md:order-last" : ""
                                         }`}
                                 />
 
@@ -176,7 +176,7 @@ export default function AboutUs() {
                         {/* Image */}
                         <div className="w-full md:w-1/2 flex justify-center">
                             <img
-                                src="https://static.vecteezy.com/system/resources/thumbnails/046/025/400/small_2x/business-center-building-isolated-on-transparent-background-free-png.png"
+                                src="/BG Transparent -aboutus.png"
                                 alt="Modern Building"
                                 loading="lazy"
                                 className="w-full h-[60vh] max-w-sm sm:max-w-md md:max-w-full object-contain"

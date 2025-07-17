@@ -15,7 +15,7 @@ export default function ContactUs() {
     return (
 
 
-        <div className="bg-white text-gray-900 pt-20">
+        <div className="bg-white text-gray-900 pt-16">
 
 
             {/* Hero Section */}

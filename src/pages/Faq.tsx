@@ -33,7 +33,7 @@ export default function FaqSection() {
     return (
 
 
-        <div className="text-white py-20">
+        <div className="text-white py-16">
 
 
             <BlurFade delay={0.25} inView>
@@ -75,7 +75,7 @@ export default function FaqSection() {
                     {/* Left Image */}
                     <div className="flex justify-center">
                         <img
-                            src="https://www.shutterstock.com/image-photo/smiling-bearded-indian-businessman-working-600nw-1945041148.jpg"
+                            src="/Faq Image.jpg"
                             alt="People Working"
                             loading="lazy"
                             className="rounded-lg w-full max-w-md sm:max-w-md h-auto object-cover"

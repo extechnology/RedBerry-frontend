@@ -58,7 +58,7 @@ export default function Gallery() {
     return (
 
 
-        <section className="px-2 sm:px-8 lg:px-20 py-20 relative">
+        <section className="px-2 sm:px-8 lg:px-20 py-16 relative">
 
 
 

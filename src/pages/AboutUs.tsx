@@ -24,7 +24,7 @@ export default function AboutUs() {
             title: "Our Vision:",
             content:
                 "At Redberry Advertising, our vision is to become a trusted leader in the branding and printing industry by delivering excellence, spreading knowledge, and upholding values that drive meaningful impact. We aim to be recognized not just for our creativity, but for the integrity and innovation that define our work. Our focus is on building long-term value for the company while nurturing enduring relationships with our clients. We strive to understand our clients’ unique business goals and needs, allowing us to align our strategies with their objectives and deliver solutions that foster growth, recognition, and lasting brand success.",
-            image: "/Our Vision.jpg",
+            image: "/Our-Vision.jpg",
         },
         {
             title: "Our Mission:",

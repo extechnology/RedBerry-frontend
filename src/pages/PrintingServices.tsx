@@ -48,19 +48,19 @@ export default function PrintingServices() {
     const features = [
         {
             label: "Screen Printing",
-            image: "https://c0.wallpaperflare.com/preview/893/649/155/man-operating-laptop-on-top-of-table.jpg",
+            image: "/screen-printing.jpg",
         },
         {
             label: "Sublimation Printing",
-            image: "https://media.istockphoto.com/id/1390242644/photo/smiling-people-in-the-meeting-room-using-a-laptop-searching-s.jpg?s=612x612&w=0&k=20&c=DtQoaRXByFbFNUXk1ZNIeWuQhTzKjsyC-1PeyenkfcE=",
+            image: "/sublimation-printing.jpg",
         },
         {
             label: "Canvas Printing",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LpCCRBf3ATtMGbbX9BRpmat3_Za-c39vm_-Ipa05gCJFET9MhvMLC_OIRo6livZ4qM4&usqp=CAU",
+            image: "/canvas-printing.jpg",
         },
         {
             label: "Embroidery",
-            image: "https://img.freepik.com/premium-photo/smiling-multiracial-family-couple-enjoy-freelancing-sitting-table-working-laptops-together_1048944-25489632.jpg",
+            image: "/embroidary.jpg",
         },
     ];
 
@@ -84,11 +84,11 @@ export default function PrintingServices() {
                     className="relative h-[40vh] md:h-[50vh] w-full flex items-center justify-center bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            `url('https://www.shutterstock.com/image-photo/using-laptop-show-icon-address-600nw-2521386695.jpg')`,
+                            `url('/banner-for-printing.jpg')`,
                     }}
                 >
 
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-xs z-0" />
+                    <div className="absolute inset-0 bg-black/60 z-0" />
 
                     <div className="relative z-10 text-center px-4">
 
@@ -198,13 +198,6 @@ export default function PrintingServices() {
                                 <p className="text-gray-600">{services[active].description}</p>
 
 
-                                {/* <div className="flex gap-4">
-                                    <button className="px-6 hover:cursor-pointer hover:scale-105 py-2 rounded-full bg-black text-white hover:bg-gray-800 transition">
-                                        Details Services 
-                                    </button>
-                                </div> */}
-
-
                             </motion.div>
 
 
@@ -269,7 +262,7 @@ export default function PrintingServices() {
 
                                 <div className="absolute bottom-4 left-4 text-white">
 
-                                    <p className="text-md font-medium mt-1">{item.label.toUpperCase()}</p>
+                                    <p className="text-md sm:text-xl font-medium mt-1">{item.label.toUpperCase()}</p>
 
                                 </div>
 

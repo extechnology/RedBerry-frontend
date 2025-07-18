@@ -123,7 +123,7 @@ export default function Slider() {
 
                                     <div className="flex justify-between items-center">
                                         <p className="text-base font-medium leading-snug">
-                                            Discover Our<br />Recent Project
+                                            Discover Our<br />Recent Project's
                                         </p>
                                         <ArrowUpRight className="w-5 h-5" />
                                     </div>

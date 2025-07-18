@@ -32,37 +32,37 @@ const Navbar = () => {
     {
       title: "Printing",
       description: "High-quality printing services for all your business needs",
-      icon: "https://media.istockphoto.com/id/941664964/vector/man-worker-at-plotter-printing-wide-format-large-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=W9JfyBycnPnlmyQcqZDMoiLCKXxxyqg3rsbok_e2854=",
+      icon: "/printing-nav.jpg",
       href: "/printingservices"
     },
     {
       title: "Indoor & Outdoor Signage",
       description: "Custom signage solutions for indoor and outdoor use",
-      icon: "https://media.istockphoto.com/id/941664964/vector/man-worker-at-plotter-printing-wide-format-large-banner-vector-illustration.jpg?s=612x612&w=0&k=20&c=W9JfyBycnPnlmyQcqZDMoiLCKXxxyqg3rsbok_e2854=",
+      icon: "/indoor outdoor signage-nav.jpg",
       href: "/indoor&outdoorsignage"
     },
     {
       title: "Laser Work",
       description: "Precision laser cutting and engraving services",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPDMt-qxz9I26TV12afkB4u7EcEmj_-5o_A&s",
+      icon: "/laser-nav.jpg",
       href: "/lasercutting&engraving"
     },
     {
       title: "Exhibitions",
       description: "Custom exhibition stands and displays for your events",
-      icon: "https://static.vecteezy.com/system/resources/previews/025/770/432/non_2x/art-exhibition-illustration-vector.jpg",
+      icon: "/exhibition-nav.jpg",
       href: "/exhibitions"
     },
     {
       title: "Interior Design",
       description: "Professional interior design and consultation",
-      icon: "https://static.vecteezy.com/system/resources/thumbnails/000/217/378/small_2x/vector-interior-design-illustration.jpg",
+      icon: "/interior-nav.jpg",
       href: "/interiordesing"
     },
     {
       title: "Graphic Design",
       description: "Creative graphic design solutions for your brand",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGG-kXG6ev9q3QEb0GXPgXwdRs5Coq1casmA&s",
+      icon: "/graphic design-nav.jpg",
       href: "/graphicdesign"
     }
   ];
@@ -179,7 +179,7 @@ const Navbar = () => {
                                 src={service.icon}
                                 loading="lazy"
                                 alt={service.title}
-                                className="w-14 h-14 object-contain"
+                                className="w-14 h-14 object-contain rounded-xl"
                               />
 
                               <div>

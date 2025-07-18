@@ -23,7 +23,7 @@ export default function BentoGrid() {
             >
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-6xl font-semibold mb-4">
-                        Your brand deserves to stand out — we make it happen.
+                        Your brand deserves to stand out, <br /> — we make it happen.
                     </h2>
                     <p className="text-md text-gray-700 mb-1 font-medium max-w-2xl mx-auto">
                         we believe every brand has a unique story. Our creative design and professional printing services ensure your brand stands out with impact, clarity, and lasting visual appeal.

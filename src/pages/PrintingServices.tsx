@@ -15,28 +15,28 @@ export default function PrintingServices() {
         {
             title: "Offset Printing",
             image:
-                "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80",
+                "/Uv Printing.jpg",
             description:
                 "Redberry is a integrated offset printing & packaging company providing, total solutions to your requirements.Our clients include Pharmaceutical & Cosmetics Majors, Health & Personal Care, FMCG Companies,Food & Beverage, Hospitality, Real Estate, Consumer Products, Textiles and Lifestyle Brands.Housing the finest machinery, raw material, infrastructure and logistics, Redberry is propelling aheadwith complete dedication, vision & focus to excel in the future.",
         },
         {
             title: "Eco solvent printing",
             image:
-                "https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?auto=format&fit=crop&w=800&q=80",
+                "/Eco solvent printing.jpg",
             description:
                 "Eco-solvent printers from Roland, Mimaki, and Mutoh are a go-to for businesses focused on high-quality, vibrant, and long-lasting graphics, ideal for everything from vehicle wraps and banners to wall graphics and decals. These printers use eco-friendly, low-odor inks that produce stunning colors while being safe for indoor and outdoor applications. Perfect for print shops, sign makers, and graphic studios, eco-solvent printers combine high durability with incredible detail, giving creators the flexibility to produce impactful,professional results on various media types.",
         },
         {
             title: "Digital Printing",
             image:
-                "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80",
+                "/Digital Printing .jpg",
             description:
                 "Redberry provides high quality digital printing services to bring your project to life.Whether you already have your own artwork to print, or need to sta the process from scratch, Redberry can help.",
         },
         {
             title: "Uv Printing",
             image:
-                "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+                "/Uv Printing.jpg",
             description:
                 "UV printing is a cutting-edge technology that uses ultraviolet light to cure or dry the ink as it is printed. This process allows for high-quality, vibrant prints on a wide range of materials, including paper, plastic, metal, and glass. UV printing is known for its quick turnaround times, durability, and ability to produce intricate designs with sharp details. It is ideal for creating promotional materials, packaging, signage, and custom products that require both speed and precision.",
         },
@@ -136,8 +136,7 @@ export default function PrintingServices() {
 
 
                         <p className="text-gray-600 mb-8">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
+                            Redberry is a integrated offset printing & packaging company providing, total solutions to your requirements.
                         </p>
 
 

@@ -39,7 +39,7 @@ export default function ServicesSection() {
                 inView
             >
                 <div className="text-black px-2 mb-5">
-                    <h1 className="text-5xl font-black leading-tight">We offer the<br />Excellence Series!</h1>
+                    <h1 className="text-5xl font-black leading-tight">We offer the<br />Excellence Services!</h1>
 
                 </div>
 

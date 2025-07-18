@@ -25,7 +25,7 @@ export default function ContactUs() {
                     className="relative h-[40vh] md:h-[50vh] w-full flex items-center justify-center bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            `url('https://www.shutterstock.com/image-photo/using-laptop-show-icon-address-600nw-2521386695.jpg')`,
+                            `url('/Contact Us-banner.jpg')`,
                     }}
                 >
 
@@ -190,15 +190,16 @@ export default function ContactUs() {
             <BlurFade delay={0.25 * 3} duration={0.7} inView>
                 <div className="w-full h-[400px]">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19801.11627826403!2d-0.1357!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b333dfaad7f%3A0x4c83940002993689!2sLondon!5e0!3m2!1sen!2suk!4v1700000000000"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.49249792079044!2d39.19171717824809!3d21.526394661727593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cfcdf40d3945%3A0xa444c501e45d087e!2sREDBERRY%20Advertising%20co.!5e1!3m2!1sen!2sin!4v1752841370689!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="Our Location"
-                    ></iframe>
+                        title="Our Location">
+
+                    </iframe>
                 </div>
             </BlurFade>
 

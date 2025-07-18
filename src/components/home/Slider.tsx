@@ -13,20 +13,20 @@ const slides = [
         image: '/Slider-1.jpg',
         subtitle: 'Where Every Pixel And Print Speaks Quality',
         title: 'We Make Your Brand Or Service Unforgettable',
-        projectimg: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+        projectimg: "/Gallery - 2.jpg"
 
     },
     {
         image: '/Slider-2.jpg',
         subtitle: 'Your Ideas, Our Graphics, Flawless Print',
         title: 'From Concept To Creation Graphics That Deliver.',
-        projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
+        projectimg: "/Gallery - 4.jpg"
     },
     {
         image: '/Slider-3.jpg',
         subtitle: 'We Turn Designs Into Lasting Impressions,',
         title: 'Creatives Delivered For Standout Brands',
-        projectimg: "https://static.vecteezy.com/system/resources/thumbnails/030/648/135/small_2x/a-dark-hallway-with-a-door-and-a-person-standing-free-photo.jpg"
+        projectimg: "/Gallery - 1.jpg"
     },
 ];
 

@@ -40,7 +40,7 @@ export default function ServicePage({ services , bannerimg , title , leftimg , r
                 >
 
 
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-xs z-0" />
+                    <div className="absolute inset-0 bg-black/60 z-0" />
 
 
                     <div className="relative z-10 text-center px-4">

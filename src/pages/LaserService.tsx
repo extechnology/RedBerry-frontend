@@ -11,19 +11,19 @@ export default function LaserService() {
         {
             title: "ACRYLIC LETTER WORK",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "specializes in premium Acrylic Letter Work, offering high-quality, customized signage that enhances brand visibility. Our precision-cut letters are durable, weather-resistant, and available in various colors, sizes, and finishes. Ideal for indoor and outdoor branding, we ensure professional installation and eye-catching designs that make your business stand out effortlessly.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHBS-0qrL9_nBNR-eirfEeVVemiMa2xtoWcw&s",
         },
         {
             title: "PHENOLIC TAG",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "We offers durable and precise Phenolic Tag services, ideal for industrial labeling and equipment identification. Made from high-quality phenolic material, these tags resist heat, chemicals, and wear. Perfect for electrical panels, machinery, and safety signs, our phenolic tags ensure long-lasting clarity, professional appearance, and reliable performance in harsh environments",
             image: "https://i.pinimg.com/736x/02/15/25/021525507a79c115108090ff2772476c.jpg",
         },
         {
             title: "SS TAG",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "We provide high-quality Stainless Steel (SS) Tag services for durable and long-lasting identification needs. Ideal for industrial, marine, and outdoor applications, our SS tags are corrosion-resistant, weatherproof, and precisely engraved. They’re ideal for labeling equipment, tracking assets, marking valves, and ensuring safety compliance in demanding environments and harsh conditions.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1wV_bPBjVSm4u3Fszdzjy7f4TMYNNkfR8lA&s",
         },
     ];

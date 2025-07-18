@@ -8,20 +8,24 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 // Sample data
 const faqs = [
     {
-        question: "We Build and Activate Brands",
-        answer: "Taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole."
+        question: "What services does Redberry offer ?",
+        answer: "Redberry provides comprehensive solutions including printing, indoor and outdoor signages, laser cutting, exhibition setups, interior design, and graphic design services tailored to elevate your brand."
     },
     {
-        question: "Designing Content With AI Power",
-        answer: "Powerful AI tools help design faster and smarter."
+        question: "Can I get customized signage for my business ?",
+        answer: "Absolutely! We specialize in custom-designed indoor and outdoor signage using materials like acrylic, metal, ACP, and LED to suit your branding and space requirements."
     },
     {
-        question: "Talented, Professional & Expert Team",
-        answer: "Our team is highly skilled, passionate, and experienced."
+        question: "Do you offer large format printing ?",
+        answer: "Yes, we provide high-quality large format printing for banners, hoardings, backdrops, posters, and exhibition graphics, ensuring vibrant visuals and weather durability."
     },
     {
-        question: "Talented, Professional & Expert Team",
-        answer: "Our team is highly skilled, passionate, and experienced."
+        question: "What types of laser cutting services do you provide ?",
+        answer: "We offer precision laser cutting and engraving on materials such as acrylic, wood, MDF, leather, and metal for tags, branding elements, signage, and décor."
+    },
+    {
+        question: "How do I request a quote for a project ?",
+        answer: "You can contact us through our website’s enquiry form, email, or call us directly with your project details. Our team will provide a prompt and personalized quotation."
     },
 ];
 
@@ -102,10 +106,10 @@ export default function FaqSection() {
                                     value={`item-${index}`}
                                     className="border border-gray-300 rounded-lg overflow-hidden"
                                 >
-                                    <AccordionTrigger className="px-6 py-5 hover:cursor-pointer text-gray-900 text-left text-base sm:text-lg font-semibold [&[data-state=open]>svg]:rotate-180">
+                                    <AccordionTrigger className="px-6 py-5 hover:cursor-pointer !hover:underline text-gray-900 text-left text-base sm:text-lg font-semibold [&[data-state=open]>svg]:rotate-180">
                                         {faq.question}
                                     </AccordionTrigger>
-                                    <AccordionContent className="px-6 pb-6 text-gray-700 text-sm sm:text-base leading-relaxed">
+                                    <AccordionContent className="px-6 py-4 pb-6 text-gray-700 text-sm sm:text-base leading-relaxed">
                                         {faq.answer}
                                     </AccordionContent>
                                 </AccordionItem>

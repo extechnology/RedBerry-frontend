@@ -47,10 +47,10 @@ export default function FaqSection() {
                     className="relative h-[40vh] md:h-[50vh] w-full flex items-center justify-center bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            `url('https://t4.ftcdn.net/jpg/03/37/96/37/360_F_337963757_t4TFoOt1DV3UkSn5NvV8nTSghntFpFJZ.jpg')`,
+                            `url('/FAQ-banner.jpg')`,
                     }}
                 >
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-xs z-0" />
+                    <div className="absolute inset-0 bg-black/60 z-0" />
                     <div className="relative z-10 text-center px-4">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
                             Frequently Asked Questions

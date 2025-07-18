@@ -11,19 +11,19 @@ export default function Indoor() {
         {
             title: "ACRYLIC SIGNAGE",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Redberry offers high-quality Acrylic Signage services, delivering sleek, modern, and durable signage solutions for businesses. Crafted with precision and available in various colors and finishes, our acrylic signs enhance brand visibility both indoors and outdoors. We provide end-to-end service including design, fabrication, and installation tailored to your brand identity.",
             image: "/acrylic-signage-indoor.jpg",
         },
         {
             title: "WOOD SIGNAGE",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "We deliver premium Indoor and Outdoor Wood Signage services, combining natural elegance with lasting durability. Ideal for branding, décor, and directional use, our wood signs are crafted from high-quality materials and customized with engraving, painting, or laser work. They add warmth, uniqueness, and rustic charm to any space.",
             image: "/wood-signage-indoor.jpg",
         },
         {
             title: "METAL SIGNAGE",
             content:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "Durable and stylish Indoor and Outdoor Metal Signage solutions, ideal for corporate, retail, and industrial branding. Crafted from high-quality materials like stainless steel, brass, and aluminum, our metal signs are weather-resistant, corrosion-proof, and fully customizable. We ensure precise cutting, professional finishes, and long-lasting visual impact.",
             image: "/metal-signage-indoor.jpg",
         },
         {

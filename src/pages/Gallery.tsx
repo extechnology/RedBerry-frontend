@@ -11,49 +11,43 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 export default function Gallery() {
 
 
-
     // project data
     const projects = [
         {
-            title: "Prismic Gallery",
-            subtitle: "Development & Design | 2024 | Prismic Integration",
-            year: 2024,
+            title: "Printed Branding Materials",
             image: "/Gallery - 1.jpg",
             bgColor: "bg-yellow-100",
         },
         {
-            title: "Code Screenshot",
-            subtitle: "Development & Design",
-            year: 2024,
+            title: "Food & Beverages",
             image: "/Gallery - 2.jpg",
             bgColor: "bg-pink-100",
         },
         {
-            title: "iPhone 15 Pro",
-            subtitle: "Development & Design",
-            year: 2024,
+            title: "Electronic Gadget Displays",
             image: "/Gallery - 4.jpg",
             bgColor: "bg-gray-100",
         },
         {
-            title: "Ochi Design",
-            subtitle: "Development & Design",
-            year: 2024,
+            title: "Creatives for Exhibitions",
             image: "/Gallery - 3.jpg",
             bgColor: "bg-green-100",
         },
         {
-            title: "Snapalyzer",
-            subtitle: "Development & Design",
-            year: 2024,
+            title: "Signage & Nameboards",
             image: "/Gallery - 5.jpg",
             bgColor: "bg-indigo-100",
         },
+        {
+            title: "Vinyl Flex Banner",
+            image: "/Gallery-6.jpg",
+            bgColor: "bg-red-100",
+        },
+
     ];
 
 
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
 
 
 
@@ -131,8 +125,6 @@ export default function Gallery() {
                                     <h3 className="text-lg font-semibold text-gray-800">
                                         {project.title}
                                     </h3>
-                                    <p className="text-sm text-gray-700 font-medium">{project.subtitle}</p>
-                                    <p className="text-sm text-gray-700 font-medium">{project.year}</p>
                                 </div>
 
 

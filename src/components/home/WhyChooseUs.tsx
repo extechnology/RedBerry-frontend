@@ -50,7 +50,6 @@ export default function WhyChooseUs() {
                 inView
             >
                 <div className="text-center mb-12">
-                    <p className="text-sm text-pink-600 font-medium mb-2 animate-pulse">● Why Choose Us</p>
                     <h2 className="text-3xl sm:text-4xl font-bold mb-4">Trusted by Many, Chosen for a Reason</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         We have earned the trust of numerous clients through consistent quality, creativity, and commitment. Our results-driven approach and attention to detail make us the preferred choice for printing and advertising solutions

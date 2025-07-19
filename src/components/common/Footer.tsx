@@ -103,7 +103,7 @@ export default function Footer() {
 
           <p className="text-xs text-center">© 2025 RedBerry, All Rights Reserved</p>
 
-          <p className="order-first lg:order-none font-semibold text-sm text-center text-white"><a href="https://extechnology.in" className="hover:text-white hover:font-bold transition" target="_blank">Powered by extechnology</a></p>
+          <a href="https://extechnology.in" className="text-sm order-first lg:order-none text-center text-white" target="_blank">Powered by <span className="font-bold text-md hover:text-white hover:font-bold transition">extechnology</span></a>
 
           <div className="flex gap-x-4 justify-center lg:justify-end text-xs">
             <a href="#" className="hover:underline hover:text-white hover:font-medium transition">Privacy Policy</a>

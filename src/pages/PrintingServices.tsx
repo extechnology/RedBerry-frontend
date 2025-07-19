@@ -15,7 +15,7 @@ export default function PrintingServices() {
         {
             title: "Offset Printing",
             image:
-                "/Uv Printing.jpg",
+                "/Offset Printing.jpg",
             description:
                 "Redberry is a integrated offset printing & packaging company providing, total solutions to your requirements.Our clients include Pharmaceutical & Cosmetics Majors, Health & Personal Care, FMCG Companies,Food & Beverage, Hospitality, Real Estate, Consumer Products, Textiles and Lifestyle Brands.Housing the finest machinery, raw material, infrastructure and logistics, Redberry is propelling aheadwith complete dedication, vision & focus to excel in the future.",
         },

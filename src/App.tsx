@@ -16,6 +16,7 @@ const ExhibitionService = lazy(() => import("./pages/ExhibitionService"))
 const InteriorDesing = lazy(() => import("./pages/InteriorDesing"))
 const GraphicDesing = lazy(() => import("./pages/GraphicDesing"))
 const Indoor = lazy(() => import("./pages/Indoor"))
+const GiftandPrmo = lazy(() => import("./pages/GiftandPrmo"))
 
 
 
@@ -66,6 +67,8 @@ function App() {
           <Route path="/interiordesing" element={<InteriorDesing />} />
 
           <Route path="/graphicdesign" element={<GraphicDesing />} />
+
+          <Route path="/gifts&promotionalitems" element={<GiftandPrmo />} />
 
         </Route>
 

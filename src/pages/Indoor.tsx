@@ -1,3 +1,4 @@
+import { MotionEffect } from "@/components/animate-ui/effects/motion-effect";
 import ServicePage from "@/components/services/ServicePage";
 
 
@@ -51,6 +52,27 @@ export default function Indoor() {
 
 
 
+    // Gallery images
+    const IndoorGallery = [
+        {
+            image: "/indoor-gallery-1.jpg",
+        },
+        {
+            image: "/indoor-gallery-2.jpg",
+        },
+        {
+            image: "/indoor-gallery-3.jpg",
+        },
+        {
+            image: "/indoor-gallery-4.jpg",
+        },
+        {
+            image: "/indoor-gallery-5.jpg",
+        },
+    ];
+
+
+
     return (
 
 
@@ -72,6 +94,57 @@ export default function Indoor() {
                             cut flushed type letters, Acrylic push through letters"
                 services={Indoor}
             />
+
+
+            <div className="mx-auto px-2 py-8">
+
+                {/* Section Header */}
+                <MotionEffect
+                    fade
+                    blur="10px"
+                    transition={{
+                        duration: 0.7,
+                        ease: 'easeInOut',
+                    }}
+                    inView
+                >
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl sm:text-4xl font-bold mb-4 relative inline-block">
+                            Our Creative's
+                            <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-[120%] h-3">
+                                <svg viewBox="0 0 200 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                                    <path d="M2 5C30 10 170 0 198 5" stroke="#3B82F6" strokeWidth="3" strokeLinecap="round" />
+                                </svg>
+                            </span>
+                        </h2>
+                        <p className="text-gray-600 max-w-2xl mx-auto">
+                            Explore our diverse range of indoor and outdoor signage solutions, designed to elevate your brand's visibility and impact. From acrylic and wood to metal and digital signage, we offer a variety of options to suit your needs.
+                        </p>
+                    </div>
+
+                </MotionEffect>
+
+
+                {/* Gallery */}
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-0 px-0 sm:px-16">
+                    {IndoorGallery.map((image, index) => (
+
+                        <MotionEffect inView key={index} slide={{ direction: 'down', }} fade zoom delay={0.4 + index * 0.1}>
+                            <div className="relative">
+                                <img
+                                    src={image.image}
+                                    alt={`Gallery ${index + 1}`}
+                                    loading="lazy"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </MotionEffect>
+                    ))}
+                </div>
+
+
+            </div>
+
 
         </section>
 

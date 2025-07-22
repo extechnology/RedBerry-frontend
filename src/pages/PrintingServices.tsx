@@ -29,7 +29,7 @@ export default function PrintingServices() {
         {
             title: "Digital Printing",
             image:
-                "/Digital Printing .jpg",
+                "/1.Digital Printing.jpg",
             description:
                 "Redberry provides high quality digital printing services to bring your project to life.Whether you already have your own artwork to print, or need to sta the process from scratch, Redberry can help.",
         },

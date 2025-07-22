@@ -17,7 +17,7 @@ export default function ExhibitionService() {
         {
             title: "MODULAR EXHIBITION STAND",
             content: "Our modular exhibition display stands are lightweight, modular structures wrapped in color digitally printed fabric banners, making them easy to transport and install. They also do not require any tools to be assembled.The modular display stand can be designed to enable multiple layout configurations or different stand sizes using the same basic hardware, making it one of the most flexible and cost-effective display options available.",
-            image: "/modular-exihibition-stand.jpg",
+            image: "/Modular Exihibition Stand.jpg",
         },
         {
             title: "POPUP EXHIBITION STAND",

@@ -46,7 +46,7 @@ export default function InteriorDesing() {
         <section className="w-full h-full">
 
             <ServicePage
-                title="Interior Design"
+                title="Interior Design & Work"
                 bannerimg="/interior-banner.jpg"
                 leftimg="/interior-design-hero-1.jpg"
                 rightimg="/interior-design-hero-2.jpg"

@@ -54,7 +54,7 @@ const Navbar = () => {
       href: "/exhibitions"
     },
     {
-      title: "Interior Design",
+      title: "Interior Design & Work",
       description: "Professional interior design and consultation",
       icon: "/interior-nav.jpg",
       href: "/interiordesing"
@@ -64,6 +64,12 @@ const Navbar = () => {
       description: "Creative graphic design solutions for your brand",
       icon: "/graphic design-nav.jpg",
       href: "/graphicdesign"
+    },
+    {
+      title: "Gifts & Promotional Items",
+      description: "Custom gifts and promotional items to enhance your brand visibility",
+      icon: "/graphic design-nav.jpg",
+      href: "/gifts&promotionalitems"
     }
   ];
 

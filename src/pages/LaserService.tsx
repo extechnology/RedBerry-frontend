@@ -18,7 +18,7 @@ export default function LaserService() {
             title: "PHENOLIC TAG",
             content:
                 "We offers durable and precise Phenolic Tag services, ideal for industrial labeling and equipment identification. Made from high-quality phenolic material, these tags resist heat, chemicals, and wear. Perfect for electrical panels, machinery, and safety signs, our phenolic tags ensure long-lasting clarity, professional appearance, and reliable performance in harsh environments",
-            image: "/phenolic-tag-laser.jpg",
+            image: "/3.PHENOLIC TAG -laser.jpg",
         },
         {
             title: "SS TAG",

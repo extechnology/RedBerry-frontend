@@ -40,7 +40,7 @@ export default function Gallery() {
         },
         {
             title: "Vinyl Flex Banner",
-            image: "/Gallery-6.jpg",
+            image: "/Gallery - 6.jpg",
             bgColor: "bg-red-100",
         },
 

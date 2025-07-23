@@ -23,7 +23,7 @@ export default function InteriorDesing() {
             title: "Landscape Design",
             content:
                 "Our luxury villa landscape design service transforms the outdoor spaces into serene retreats with blending greenery that matches your villa",
-            image: "/landscape-interior.jpg",
+            image: "/8. Landscape Design .jpg",
         },
         {
             title: "Electrical & Plumbing Design",

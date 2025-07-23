@@ -9,21 +9,20 @@ import ServicePage from "@/components/services/ServicePage";
 export default function GiftandPrmo() {
 
 
-
-
+    
     // Gift and Promotional Items Sections
     const GiftandPrmo = [
         {
             title: "Printed Gifts & Promotional",
             content:
                 "We are committed to delivering high-quality printed gifts and promotional items that reflect your brand’s excellence. Each product is crafted with precision, using premium materials and advanced printing techniques to ensure durability and a professional finish. Our streamlined production and logistics ensure punctual delivery, meeting tight deadlines without compromising on quality. Whether for corporate events, giveaways, or brand promotions, Redberry guarantees reliable service, attention to detail, and timely execution to make your brand shine.",
-            image: "/acrylic-signage-indoor.jpg",
+            image: "/6.PRINTED GIFTS & PROMOTIONAL.jpg",
         },
         {
             title: "Crafted  Gifts & promotional Items",
             content:
                 "Specializes in innovatively and uniquely designed crafted gifts and promotional items that captivate and impress. Each product is thoughtfully created with a blend of creativity, functionality, and premium craftsmanship to reflect your brand’s uniqueness. We prioritize quality in every detail and ensure every item meets high aesthetic and durability standards. With a strong commitment to punctual delivery, Redberry guarantees timely execution, making us a reliable partner for all your branding and gifting needs.",
-            image: "/wood-signage-indoor.jpg",
+            image: "/6.CRAFTED GIFTS & PROMOTIONAL ITEMS.jpg",
         },
 
     ];
@@ -34,19 +33,19 @@ export default function GiftandPrmo() {
     // Gallery images
     const GiftGallery = [
         {
-            image: "/indoor-gallery-1.jpg",
+            image: "/gift-gallery-1.jpg",
         },
         {
-            image: "/indoor-gallery-2.jpg",
+            image: "/gift-gallery-2.jpg",
         },
         {
-            image: "/indoor-gallery-3.jpg",
+            image: "/gift-gallery-3.jpg",
         },
         {
-            image: "/indoor-gallery-4.jpg",
+            image: "/gift-gallery-4.jpg",
         },
         {
-            image: "/indoor-gallery-5.jpg",
+            image: "/gift-gallery-5.jpg",
         },
     ];
 
@@ -61,9 +60,9 @@ export default function GiftandPrmo() {
             {/* GiftandPrmo Service section */}
             <ServicePage
                 title="Gifts & Promotional Items"
-                bannerimg="/indor-banner.jpg"
-                leftimg="/indore-hero-1.jpg"
-                rightimg="/indore-hero-2.jpg"
+                bannerimg="/Gift-banner.jpg"
+                leftimg="/6.Gift & promotional items-hero-1.jpg"
+                rightimg="/6.Gift & promotional items-hero-2.jpg"
                 discription1="We offer customized gift and promotional items tailored to elevate your brand identity. From corporate giveaways to event merchandise, we provide high-quality, creatively branded products that leave a lasting impression. Our solutions are designed to enhance visibility, build customer loyalty, and make your brand stand out effortlessly."
                 discription2="Custom Printed T-Shirts | Personalized Mugs | Engraved Pens | Branded Notebooks| Keychains with Logo | Tote Bags & Eco Bags | Customized Water Bottles | Corporate Gift Boxes | USB Flash Drives | Printed Caps & Hats | Mouse Pads | Lanyards & ID Card Holders |Phone Holders & Stands | Wall & Desk Calendars |Custom Diaries & Planners | Ceramic Plates & Souvenirs | Printed Umbrellas | Magnetic Stickers & Badges | Wooden Engraved Awards"
                 services={GiftandPrmo}
@@ -71,6 +70,7 @@ export default function GiftandPrmo() {
 
 
             <div className="mx-auto px-2 py-8">
+
 
                 {/* Section Header */}
                 <MotionEffect

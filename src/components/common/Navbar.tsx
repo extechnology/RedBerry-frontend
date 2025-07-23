@@ -68,7 +68,7 @@ const Navbar = () => {
     {
       title: "Gifts & Promotional Items",
       description: "Custom gifts and promotional items to enhance your brand visibility",
-      icon: "/graphic design-nav.jpg",
+      icon: "/gift&promo-navbar.jpg",
       href: "/gifts&promotionalitems"
     }
   ];

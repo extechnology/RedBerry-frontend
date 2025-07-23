@@ -15,7 +15,7 @@ export default function PrintingServices() {
         {
             title: "Offset Printing",
             image:
-                "/Offset Printing.jpg",
+                "/9.Offset Printing.jpg",
             description:
                 "Redberry is a integrated offset printing & packaging company providing, total solutions to your requirements.Our clients include Pharmaceutical & Cosmetics Majors, Health & Personal Care, FMCG Companies,Food & Beverage, Hospitality, Real Estate, Consumer Products, Textiles and Lifestyle Brands.Housing the finest machinery, raw material, infrastructure and logistics, Redberry is propelling aheadwith complete dedication, vision & focus to excel in the future.",
         },
@@ -36,7 +36,7 @@ export default function PrintingServices() {
         {
             title: "Uv Printing",
             image:
-                "/Uv Printing.jpg",
+                "/9.Uv Printing.jpg",
             description:
                 "UV printing is a cutting-edge technology that uses ultraviolet light to cure or dry the ink as it is printed. This process allows for high-quality, vibrant prints on a wide range of materials, including paper, plastic, metal, and glass. UV printing is known for its quick turnaround times, durability, and ability to produce intricate designs with sharp details. It is ideal for creating promotional materials, packaging, signage, and custom products that require both speed and precision.",
         },

@@ -23,7 +23,7 @@ export default function ExhibitionService() {
             title: "POPUP EXHIBITION STAND",
             content:
                 "Pop-up stands are often called pop-up banner stands,pull-up stands, and roll-up banners. But the thing is that they will leave a long-lasting impression on your marketing campaign in Saudi Arabia if used properly. The pop-up stands are a great marketing tool for your business. You can promote your own business products and services by using these stands in Jeddah, Riyadh, Yanbu, Khobar, Makkah, Madinah, and many other cities in Saudi Arabia.",
-            image: "/popup-exihibition-stand.jpg",
+            image: "/popup-exihibition-stand-new.jpg",
         },
     ];
 

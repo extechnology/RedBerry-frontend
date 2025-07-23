@@ -3,7 +3,7 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import { motion } from "framer-motion";
 
 
 
@@ -59,13 +59,20 @@ export default function Slider() {
                         <div className="relative w-full h-full">
 
 
-                            {/* Background Image */}
-                            <img
-                                src={slide.image}
-                                alt="Slide"
-                                loading='lazy'
-                                className="w-full h-full object-cover"
-                            />
+                            {/* Slider image */}
+                            <motion.div
+                                initial={{ scale: 1 }}
+                                animate={{ scale: 1.1 }}
+                                transition={{ duration: 10, ease: "easeInOut", repeat: Infinity, repeatType: "mirror" }}
+                                className="w-full h-full"
+                            >
+                                <img
+                                    src={slide.image}
+                                    alt="Slide"
+                                    loading="lazy"
+                                    className="w-full h-full object-cover"
+                                />
+                            </motion.div>
 
 
                             {/* Dark Overlay */}

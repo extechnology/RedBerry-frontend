@@ -9,21 +9,20 @@ import ServicePage from "@/components/services/ServicePage";
 export default function GiftandPrmo() {
 
 
-
-
+    
     // Gift and Promotional Items Sections
     const GiftandPrmo = [
         {
             title: "Printed Gifts & Promotional",
             content:
                 "We are committed to delivering high-quality printed gifts and promotional items that reflect your brand’s excellence. Each product is crafted with precision, using premium materials and advanced printing techniques to ensure durability and a professional finish. Our streamlined production and logistics ensure punctual delivery, meeting tight deadlines without compromising on quality. Whether for corporate events, giveaways, or brand promotions, Redberry guarantees reliable service, attention to detail, and timely execution to make your brand shine.",
-            image: "/acrylic-signage-indoor.jpg",
+            image: "/6.PRINTED GIFTS & PROMOTIONAL.jpg",
         },
         {
             title: "Crafted  Gifts & promotional Items",
             content:
                 "Specializes in innovatively and uniquely designed crafted gifts and promotional items that captivate and impress. Each product is thoughtfully created with a blend of creativity, functionality, and premium craftsmanship to reflect your brand’s uniqueness. We prioritize quality in every detail and ensure every item meets high aesthetic and durability standards. With a strong commitment to punctual delivery, Redberry guarantees timely execution, making us a reliable partner for all your branding and gifting needs.",
-            image: "/wood-signage-indoor.jpg",
+            image: "/6.CRAFTED GIFTS & PROMOTIONAL ITEMS.jpg",
         },
 
     ];

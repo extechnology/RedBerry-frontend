@@ -8,6 +8,19 @@ export default function InteriorDesing() {
 
     // Interior Desing Sections
     const InteriorDesing = [
+
+        {
+            title: "SHOP INTERIOR",
+            content:
+                "Everything you need to know about shop interior design–from this year’s hottest in-store trends to best practices on creating a space that truly reflects your brand Getting the interior design of your store right is no easy task. It needs to reflect your brand’s visual identity,support shoppers in finding what they need, and create a welcoming environment that enhances the in-store experience. This is a lot to ask of some paint and furniture! If you’re looking to revamp your shop’s interior design, or are starting from scratch, allow us to help you out.Come along as we guide you through this important process, examining why the interior design of your shop is so crucial to your business. We also cover the core elements of effective store interior design, current trends to try out, and tips to ensure you get it right for your brand and customers. ",
+            image: "/Shop interior.jpg",
+        },
+        {
+            title: "OFFICE INTERIOR",
+            content:
+                "REDBERRY offers a complete demountable partition system featuring glass, wood, or steel-finished wall panels and doors. Designed to enhance workplace efficiency, the system provides superior sound insulation, optimized natural lighting, and a productive working environment.Adjustable Light Control: Glazed partitions can be paired with integrated or standalone Venetian blinds,allowing tailored light regulation. The modular design enables flexible combinations of glass panels and solid partitions, ideal for spaces where full enclosure or complete glazing is unnecessary.Crafted for adaptability and functionality, REDBERRY partitions seamlessly blend aesthetics with practicality, supporting dynamic office desig",
+            image: "/office interior.jpg",
+        },
         {
             title: "LUXURY VILLA DESIGNS",
             content:

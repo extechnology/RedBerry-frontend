@@ -99,9 +99,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
 
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2 bg-[#03045C] rounded-tl-2xl rounded-br-2xl px-4 p-1">
 
-              <img src="/Nav-black-logo.png" alt="nav-logo" className="h-12 sm:h-12 w-full object-contain" />
+              <img src="/Nav-white-logo.png" alt="nav-logo" className="h-12 sm:h-12 w-full object-contain" />
 
             </Link>
 

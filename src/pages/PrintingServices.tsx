@@ -180,7 +180,6 @@ export default function PrintingServices() {
                                 className="space-y-4"
                             >
 
-
                                 <div className="overflow-hidden rounded-2xl">
 
                                     <img
@@ -196,12 +195,9 @@ export default function PrintingServices() {
                                 <h3 className="text-2xl font-bold">{services[active].title}</h3>
                                 <p className="text-gray-600">{services[active].description}</p>
 
-
                             </motion.div>
 
-
                         </AnimatePresence>
-
 
                     </div>
 

@@ -61,32 +61,27 @@ export default function Footer() {
           <h3 className="mb-4 text-xl font-semibold text-white">Support Us</h3>
           <div className="flex flex-wrap items-center gap-4">
 
-            <a href="#" aria-label="Instagram" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://www.instagram.com/redberryadv/" target="_blank" aria-label="Instagram" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-instagram fa-xl"></i>
             </a>
 
 
-            <a href="#" aria-label="Facebook" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://www.facebook.com/redberryadv" target="_blank" aria-label="Facebook" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-facebook fa-xl"></i>
             </a>
 
 
-            <a href="#" aria-label="Twitter" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://x.com/redberryadv" target="_blank" aria-label="Twitter" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-x-twitter fa-xl"></i>
             </a>
 
 
-            <a href="#" aria-label="LinkedIn" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://www.linkedin.com/company/redberryadv" target="_blank" aria-label="LinkedIn" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-linkedin-in fa-xl"></i>
             </a>
 
 
-            <a href="#" aria-label="YouTube" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
-              <i className="fa-brands fa-youtube fa-xl"></i>
-            </a>
-
-
-            <a href="#" aria-label="Pinterest" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://www.linkedin.com/company/redberryadv" target="_blank" aria-label="Pinterest" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-pinterest fa-xl"></i>
             </a>
 

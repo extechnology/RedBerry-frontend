@@ -81,7 +81,7 @@ export default function Footer() {
             </a>
 
 
-            <a href="https://www.linkedin.com/company/redberryadv" target="_blank" aria-label="Pinterest" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
+            <a href="https://www.pinterest.com/redberryadv/" target="_blank" aria-label="Pinterest" className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300">
               <i className="fa-brands fa-pinterest fa-xl"></i>
             </a>
 
